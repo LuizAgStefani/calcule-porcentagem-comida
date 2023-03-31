@@ -260,25 +260,25 @@ export default function Main() {
                 <View style={styles.areaButtons}>
                   <Button
                     disabled={loading}
-                    icon="plus-box-outline"
+                    icon="food-drumstick"
                     mode="elevated"
                     buttonColor="#FC6767"
                     textColor="#FFF"
                     onPress={() => setDialogAlimento1(true)}
                     style={{ width: "45%" }}
                   >
-                    Alimento 1
+                    1
                   </Button>
                   <Button
                     disabled={loading}
-                    icon="plus-box-outline"
+                    icon="food-drumstick"
                     mode="elevated"
                     buttonColor="#FC6767"
                     textColor="#FFF"
                     onPress={() => setDialogAlimento2(true)}
                     style={{ width: "45%" }}
                   >
-                    Alimento 2
+                    2
                   </Button>
                 </View>
                 <View style={styles.areaDescAlimento}>
